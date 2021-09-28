@@ -5,16 +5,18 @@ const port = 3000;
 
 app.set("view engine", "ejs");
 
+app.use(express.static(path.join(__dirname, "public")));
+
 app.get("/", function(req, res){
-    res.render("index");
+    res.render("index", {titulo: "Ola Blluuueerrrrrmaarrrsss"});
 });
 
 app.get("/pagina", function(req, res){
-    res.render("pagina")
+    res.render("pagina");
 });
 
 app.get("/ausente", function(req, res){
-    res.render("não estou...")
+    res.render("não estou...");
 });
 
 
