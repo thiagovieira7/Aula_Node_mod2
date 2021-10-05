@@ -11,7 +11,7 @@ html, body{
 }
 
 header {
-    background-image: url("../midia/img/jhonny maneiras pg gt.jpg"); 
+    background-image: url("../midia/img/jhonny_maneiras_pg_gt.jpg"); 
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center; 
@@ -68,17 +68,17 @@ header h1{
     cursor: pointer;
 }
 
-section.texto div#txt button:hover{
+.texto div#navegacao button:hover{
     transform: scale(1.1);
-    box-shadow: 0px 0px 10px 1px #ffffff50;
+    box-shadow: 0px 0px 10px 1px #cf2e2e50;
 }
 
 .texto div#img{
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
 
-.texto div#img img{
+.texto div#img{
     width: 600%;
     border-radius: 3rem;
     transform: scaleX(-1);
